@@ -55,7 +55,7 @@ make
 
 3. **Submit a job with priority**:
    ```bash
-   submit ./helloworld 2
+   submit ./helloworld 
    ```
 
 4. **Exit SimpleShell**:
