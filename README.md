@@ -34,7 +34,6 @@
 
 - **SimpleScheduler.c**: Contains the implementation of the scheduler and scheduling functions.
 - **SimpleShell.c**: Implements the command-line shell for job submissions.
-- **dummy_main.h**: Includes the necessary modifications to user executables.
 - **shared_memory.h**: Contains shared memory structures for inter-process communication.
 
 ## Advanced Features (Bonus)
