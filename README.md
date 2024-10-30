@@ -19,9 +19,6 @@
 - **GCC** or any C compiler
 - A **UNIX-based OS** (e.g., Linux, macOS)
 
-### Compilation
-
-To compile SimpleScheduler and SimpleShell:
 
 ## How It Works
 
