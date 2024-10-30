@@ -1,3 +1,7 @@
+Here is the updated README file for your GitHub repository:
+
+---
+
 # SimpleScheduler
 
 ## Project Description
@@ -19,6 +23,52 @@
 - **GCC** or any C compiler
 - A **UNIX-based OS** (e.g., Linux, macOS)
 
+### Compilation
+
+To compile executables for your test jobs, use:
+```bash
+gcc -o fib fib.c
+gcc -o helloworld helloworld.c
+```
+
+To build and execute the SimpleShell and SimpleScheduler, use the Makefile provided:
+
+```bash
+make clean
+make
+```
+
+### Usage
+
+1. **Run SimpleShell**:
+   ```bash
+   ./SimpleShell <NCPU> <TSLICE>
+   ```
+
+   - `NCPU`: Number of CPU cores to simulate.
+   - `TSLICE`: Time slice in milliseconds for each process to execute.
+
+2. **Submit a job**:
+   ```bash
+   submit ./fib
+   ```
+
+3. **Submit a job with priority**:
+   ```bash
+   submit ./helloworld 2
+   ```
+
+4. **Exit SimpleShell**:
+   ```bash
+   exit
+   ```
+
+### Important Notes
+
+- Always run the `make clean` command to clear shared memory before scheduling policies to avoid conflicts with previous runs.
+- All time calculations are in nanoseconds for higher accuracy.
+
+---
 
 ## How It Works
 
@@ -70,5 +120,6 @@ It also calculates and displays the average wait and completion times for all jo
 - Sahil Amrawat 2023462
 - Vikas Meena 2023593
 
-
 ---
+
+This README provides all the necessary information for setting up and running the SimpleScheduler project. Feel free to further customize it if needed!
